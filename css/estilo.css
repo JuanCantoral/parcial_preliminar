@@ -1,0 +1,183 @@
+  .navbar{
+      background-color: #001F4E;    
+      padding: 0;
+  }
+
+  .navbar a,
+  .navbar a:focus {    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-box-shadow: 0 none;
+    box-shadow: 0 none;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s;   
+  }
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    text-decoration: none;
+    background: none !important;
+    outline: 0 none;
+    color: yellow;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .naalogo{
+    font-size: 54px;
+  }
+
+  #footer {
+    background:  #001F4E;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .whatsapp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:160px;
+    right:14px;
+    background-color: #25d366;
+      color: #fff;
+    border-collapse: #25d366;
+    text-align:center;
+    font-size:45px;
+    z-index:1000;
+    }
+    .whatsapp-icon {
+      margin-top:7px;
+    }
+  .whatsapp:hover{
+      background-color:#FFF;
+    color:#25d366;
+  }
+
+  .facebook{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:100px;
+    right:14px;
+    background-color: #3b5998;
+      color: #fff;
+    border-collapse: #3b5998;
+    border-radius:0px 0px 0px 20px;     
+    text-align:center;
+    font-size:45px;
+    z-index:1000;
+    }
+    .facebook-icon {
+        margin-top:8px;
+    }
+  .facebook:hover{
+      background-color:#FFF;
+    color:#3b5998;
+  }
+
+  .instagram{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:220px;
+    right:14px;
+    background-color: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+      box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+      color: #fff;
+    border-collapse: #d6249f;
+    border-radius:20px 0px 0px 0px;
+    text-align:center;
+    font-size:45px;
+    z-index:1000;
+    }
+    .instagram-icon {
+        margin-top:8px;
+    }
+  .instagram:hover{
+      background-color:#FFF;
+      background: radial-gradient(circle at 30% 107%, #FFF 0%, #FFF 5%, #FFF 45%,#FFF 60%,#FFF 90%);
+      box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    color:#d6249f;
+  }
+
+  .portfolio .admymat{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  .portfolio img{
+    border-radius: 10px;
+    transition: transform .2s; 
+  }
+  
+  .portfolio img:hover{
+    opacity: 0.9;
+    transform: scale(1.01); 
+  }
+  .portfolio .ini{
+    border-style: solid;
+    border-color: green;
+    background-color: green;
+    border-radius: 10px;
+  }
+  
+  .portfolio .pri{
+    border-style: solid;
+    border-color: red;
+    background-color: red;
+    border-radius: 10px;
+  }
+  
+  .portfolio .sec{
+    border-style: solid;
+    border-color: blue;
+    background-color: blue;
+    border-radius: 10px;
+  }
+
+  .contact .info-box {
+    color: #444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .contact .info-box i {
+    font-size: 32px;
+    color: #428bca;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #9eccf4;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: #666;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
